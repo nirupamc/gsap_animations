@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #00FF66;
+  --color-bg-dark: #0a0a0a;
+  --color-card-dark: #111111;
+  --color-border-dark: #1e1e1e;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'Fira Code', monospace;
+}
+
+/* Base custom styles */
+body {
+  background-color: #0a0a0a;
+  color: #f3f4f6;
+  font-family: 'Inter', -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom glow effect */
+.glow-on-hover {
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.glow-on-hover:hover {
+  border-color: #00FF66;
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.15);
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+/* Utility classes for GSAP text splitting animations */
+.char {
+  display: inline-block;
+  will-change: transform, opacity;
+  white-space: pre; /* maintain spaces when splitting characters */
+}
+
+.word {
+  display: inline-block;
+  will-change: transform, opacity;
+  white-space: nowrap; /* maintain words when splitting */
+  margin-right: 0.25em; /* spacing between words */
+}
+
+.line {
+  display: block;
+  overflow: hidden;
+  will-change: transform, opacity;
+}
+
+/* Performance optimizations */
+.preview-container {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+}
