@@ -32,7 +32,7 @@ export default function Navbar() {
             Built with GSAP
           </span>
           <a
-            href="https://github.com/user/gsap-text-effects"
+            href="https://github.com/nirupamc/gsap_animations"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-400 transition-colors hover:text-white"

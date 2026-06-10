@@ -110,7 +110,7 @@ export default function Hero() {
             <ArrowRight className="ml-2 h-4 w-4" />
           </a>
           <a
-            href="https://github.com/user/gsap-text-effects"
+            href="https://github.com/nirupamc/gsap_animations"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-950 px-6 py-3.5 text-base font-semibold text-white transition-colors hover:bg-neutral-900 hover:border-neutral-700"

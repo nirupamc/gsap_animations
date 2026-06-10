@@ -19,7 +19,7 @@ export default function Footer() {
             GSAP Docs
           </a>
           <a
-            href="https://github.com/user/gsap-text-effects"
+            href="https://github.com/nirupamc/gsap_animations"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors"
