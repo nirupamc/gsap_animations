@@ -1,7 +1,7 @@
 # GSAP Text Effects Showcase
 
 A premium, interactive showcase of **85 GSAP text animations** built using **React, Vite, and Tailwind CSS**. Users can preview each effect live (running automatically on viewport entry or manually on replay) and copy the fully self-contained HTML+JS snippet with a single click.
-
+demo: https://gsaptextanimtions.netlify.app/
 ## Features
 
 - **85 Interactive Effects**: Organized into 7 categories (Entrance, Per-Character, Kinetic, Glitch & Digital, Creative, Paragraph, Scroll).
